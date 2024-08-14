@@ -32,8 +32,12 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
 #endif
 
         self.webView.configuration.userContentController.add(self, name: "controller")
+        if let fileURL = Bundle.main.url(forResource: "Main", withExtension: "html") {
+            self.webView.loadFileURL(fileURL, allowingReadAccessTo: Bundle.main.resourceURL!)
+        } else {
+            print("Main.html not found in bundle.")
+        }
 
-        self.webView.loadFileURL(Bundle.main.url(forResource: "Main", withExtension: "html")!, allowingReadAccessTo: Bundle.main.resourceURL!)
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {

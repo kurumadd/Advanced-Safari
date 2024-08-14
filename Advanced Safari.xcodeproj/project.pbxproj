@@ -61,9 +61,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		72A5166D2C6CD71500C12DB5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				/Localized/Main.html,
+			);
+			target = 72BCEE742C5A4E160058341F /* Advanced Safari Extension (macOS) */;
+		};
+		72A516702C6CD72100C12DB5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				/Localized/Main.html,
+			);
+			target = 72BCEE6A2C5A4E160058341F /* Advanced Safari Extension (iOS) */;
+		};
 		72BCEE9A2C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				/Localized/Main.html,
 				Assets.xcassets,
 				Resources/Icon.png,
 				Resources/Script.js,
@@ -91,6 +106,7 @@
 		72BCEEA62C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				/Localized/Main.html,
 				Assets.xcassets,
 				Resources/Icon.png,
 				Resources/Script.js,
@@ -119,7 +135,6 @@
 				Resources/_locales,
 				Resources/background.js,
 				Resources/content.js,
-				Resources/global.js,
 				Resources/images,
 				Resources/manifest.json,
 				Resources/popup.css,
@@ -135,7 +150,6 @@
 				Resources/_locales,
 				Resources/background.js,
 				Resources/content.js,
-				Resources/global.js,
 				Resources/images,
 				Resources/manifest.json,
 				Resources/popup.css,
@@ -156,13 +170,6 @@
 				Base.lproj/Main.storyboard,
 			);
 		};
-		72BCEEA52C5A4E160058341F /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 72BCEE4B2C5A4E160058341F /* Resources */;
-			membershipExceptions = (
-				Resources/../Base.lproj/Main.html,
-			);
-		};
 		72BCEEB02C5A4E160058341F /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 72BCEE5D2C5A4E160058341F /* Resources */;
@@ -170,17 +177,10 @@
 				Base.lproj/Main.storyboard,
 			);
 		};
-		72BCEEB12C5A4E160058341F /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 72BCEE5D2C5A4E160058341F /* Resources */;
-			membershipExceptions = (
-				Resources/../Base.lproj/Main.html,
-			);
-		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		72BCEE352C5A4E150058341F /* Shared (App) */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (72BCEE9A2C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72BCEEA52C5A4E160058341F /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, 72BCEEA62C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72BCEEB12C5A4E160058341F /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Shared (App)"; sourceTree = "<group>"; };
+		72BCEE352C5A4E150058341F /* Shared (App) */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (72BCEE9A2C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72BCEEA62C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72A516702C6CD72100C12DB5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72A5166D2C6CD71500C12DB5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Shared (App)"; sourceTree = "<group>"; };
 		72BCEE3E2C5A4E160058341F /* Shared (Extension) */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (72BCEEB22C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72BCEEB32C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (Resources/_locales, Resources/images, ); path = "Shared (Extension)"; sourceTree = "<group>"; };
 		72BCEE4F2C5A4E160058341F /* iOS (App) */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (72BCEEA32C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72BCEEA42C5A4E160058341F /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "iOS (App)"; sourceTree = "<group>"; };
 		72BCEE602C5A4E160058341F /* macOS (App) */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (72BCEEAF2C5A4E160058341F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 72BCEEB02C5A4E160058341F /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "macOS (App)"; sourceTree = "<group>"; };
